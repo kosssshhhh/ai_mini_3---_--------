@@ -73,17 +73,29 @@
 ## Architecture
 
 ```mermaid
-[사용자 입력: 대주제(ex: AI, 로보틱스)]
-         ↓
-KeywordExtractionAgent: 키워드 추출
-         ↓
-CollectorAgent: 병렬 데이터 수집
-         ↓
-AnalyzerAgent: 병렬 데이터 분석
-         ↓
-ReportAgent: LLM 기반 보고서 생성
-         ↓
-[최종 보고서 출력 (Markdown)]
+flowchart TD
+    START([시작]) --> EXTRACT[extract_keywords\nKeywordExtractionAgent]
+    EXTRACT --> COLLECT[collect_data_parallel\nCollectorAgent]
+    COLLECT --> ANALYZE[analyze_data_parallel\nAnalyzerAgent]
+    ANALYZE --> REPORT[generate_report\nReportAgent]
+    REPORT --> END([종료])
+    
+    subgraph STATE[워크플로우 상태 - WorkflowState]
+    main_topic
+    keywords
+    collection_results
+    analysis_results
+    report
+    end
+    
+    subgraph PARALLEL[병렬 처리 - ThreadPoolExecutor]
+    worker1[Worker 1]
+    worker2[Worker 2]
+    worker3[Worker 3]
+    end
+    
+    COLLECT -.-> PARALLEL
+    ANALYZE -.-> PARALLEL
 ```
 
 ## Directory Structure
