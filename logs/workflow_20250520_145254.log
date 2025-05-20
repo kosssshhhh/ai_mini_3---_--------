@@ -1,0 +1,176 @@
+2025-05-20 14:52:55 [INFO] === 워크플로우 실행 시작 ===
+2025-05-20 14:52:55 [INFO] 분석할 대주제: AI
+2025-05-20 14:52:55 [INFO] 최대 동시 작업 수: 3
+2025-05-20 14:52:55 [INFO] 워크플로우 시작
+2025-05-20 14:52:55 [INFO] 키워드 추출 시작: AI
+2025-05-20 14:53:11 [SUCCESS] 키워드 추출 완료: Generative Adversarial Networks, Natural Language Processing, Machine Learning Ethics
+2025-05-20 14:53:11 [INFO][Generative Adversarial Networks] 처리 시작
+2025-05-20 14:53:11 [INFO][Natural Language Processing] 처리 시작
+2025-05-20 14:53:11 [INFO][Machine Learning Ethics] 처리 시작
+2025-05-20 14:53:11 [INFO][Generative Adversarial Networks] 'Generative Adversarial Networks' 관련 논문 검색 시작 (최대 200개)
+2025-05-20 14:53:11 [INFO][Natural Language Processing] 'Natural Language Processing' 관련 논문 검색 시작 (최대 200개)
+2025-05-20 14:53:11 [INFO][Machine Learning Ethics] 'Machine Learning Ethics' 관련 논문 검색 시작 (최대 200개)
+2025-05-20 14:53:12 [INFO][Generative Adversarial Networks] 첫 번째 논문: CIE: Controlling Language Model Text Generations Using Continuous Signals (cs.CL, 2025-05-19)
+2025-05-20 14:53:12 [INFO][Generative Adversarial Networks] 배치 1 완료: 50개 수집 (최근 날짜: 2025-05-19)
+2025-05-20 14:53:13 [INFO][Generative Adversarial Networks] 배치 2 완료: 100개 수집 (최근 날짜: 2025-05-19)
+2025-05-20 14:53:13 [INFO][Natural Language Processing] 첫 번째 논문: CIE: Controlling Language Model Text Generations Using Continuous Signals (cs.CL, 2025-05-19)
+2025-05-20 14:53:13 [INFO][Natural Language Processing] 배치 1 완료: 50개 수집 (최근 날짜: 2025-05-19)
+2025-05-20 14:53:13 [INFO][Machine Learning Ethics] 첫 번째 논문: CIE: Controlling Language Model Text Generations Using Continuous Signals (cs.CL, 2025-05-19)
+2025-05-20 14:53:13 [INFO][Natural Language Processing] 배치 2 완료: 100개 수집 (최근 날짜: 2025-05-19)
+2025-05-20 14:53:13 [INFO][Machine Learning Ethics] 배치 1 완료: 50개 수집 (최근 날짜: 2025-05-19)
+2025-05-20 14:53:13 [INFO][Machine Learning Ethics] 배치 2 완료: 100개 수집 (최근 날짜: 2025-05-19)
+2025-05-20 14:53:17 [INFO][Machine Learning Ethics] 배치 3 완료: 150개 수집 (최근 날짜: 2025-05-19)
+2025-05-20 14:53:17 [INFO][Machine Learning Ethics] 배치 4 완료: 200개 수집 (최근 날짜: 2025-05-19)
+2025-05-20 14:53:17 [SUCCESS][Machine Learning Ethics] 수집 완료: 200개 논문, 기간: 2025-05-19 ~ 2025-05-19
+2025-05-20 14:53:17 [INFO][Machine Learning Ethics] 트렌드 데이터 수집 시작 (검색어: "Machine Learning Ethics")
+2025-05-20 14:53:18 [INFO][Generative Adversarial Networks] 배치 3 완료: 150개 수집 (최근 날짜: 2025-05-19)
+2025-05-20 14:53:18 [INFO][Generative Adversarial Networks] 배치 4 완료: 200개 수집 (최근 날짜: 2025-05-19)
+2025-05-20 14:53:18 [SUCCESS][Generative Adversarial Networks] 수집 완료: 200개 논문, 기간: 2025-05-19 ~ 2025-05-19
+2025-05-20 14:53:18 [INFO][Generative Adversarial Networks] 트렌드 데이터 수집 시작 (검색어: "Generative Adversarial Networks")
+2025-05-20 14:53:18 [INFO][Natural Language Processing] 배치 3 완료: 150개 수집 (최근 날짜: 2025-05-19)
+2025-05-20 14:53:18 [INFO][Natural Language Processing] 배치 4 완료: 200개 수집 (최근 날짜: 2025-05-19)
+2025-05-20 14:53:18 [SUCCESS][Natural Language Processing] 수집 완료: 200개 논문, 기간: 2025-05-19 ~ 2025-05-19
+2025-05-20 14:53:18 [INFO][Natural Language Processing] 트렌드 데이터 수집 시작 (검색어: "Natural Language Processing")
+2025-05-20 14:53:25 [INFO][Machine Learning Ethics] 수집된 데이터 샘플:
+            "Natural Language Processing"  isPartial
+date                                                
+2020-05-17                             62      False
+2020-05-24                             54      False
+2020-05-31                             62      False
+2020-06-07                             66      False
+2020-06-14                             67      False
+2025-05-20 14:53:25 [WARNING][Machine Learning Ethics] 트렌드 데이터 수집 시도 1/3 실패: '"Machine Learning Ethics"'
+2025-05-20 14:53:25 [INFO][Generative Adversarial Networks] 수집된 데이터 샘플:
+            "Natural Language Processing"  isPartial
+date                                                
+2020-05-17                             62      False
+2020-05-24                             54      False
+2020-05-31                             62      False
+2020-06-07                             66      False
+2020-06-14                             67      False
+2025-05-20 14:53:25 [WARNING][Generative Adversarial Networks] 트렌드 데이터 수집 시도 1/3 실패: '"Generative Adversarial Networks"'
+2025-05-20 14:53:25 [INFO][Natural Language Processing] 수집된 데이터 샘플:
+            "Natural Language Processing"  isPartial
+date                                                
+2020-05-17                             62      False
+2020-05-24                             54      False
+2020-05-31                             62      False
+2020-06-07                             66      False
+2020-06-14                             67      False
+2025-05-20 14:53:25 [INFO][Natural Language Processing] 데이터 통계:
+- 전체 포인트: 262개
+- 전체 평균: 70.7
+- 최대값: 100
+- 최근 26주 평균: 80.2
+- 기간: 2020-05-17 ~ 2025-05-18
+2025-05-20 14:53:25 [SUCCESS][Natural Language Processing] 트렌드 데이터 수집 완료
+2025-05-20 14:53:25 [INFO][Natural Language Processing] 뉴스 데이터 수집 시작: Natural Language Processing
+2025-05-20 14:53:26 [SUCCESS][Natural Language Processing] 100개 뉴스 기사 수집 완료
+2025-05-20 14:53:26 [SUCCESS][Natural Language Processing] 처리 완료
+2025-05-20 14:53:28 [INFO][Machine Learning Ethics] 트렌드 데이터 수집 시작 (검색어: "Machine Learning Ethics")
+2025-05-20 14:53:28 [INFO][Generative Adversarial Networks] 트렌드 데이터 수집 시작 (검색어: "Generative Adversarial Networks")
+2025-05-20 14:53:35 [INFO][Machine Learning Ethics] 수집된 데이터 샘플:
+            "Generative Adversarial Networks"  isPartial
+date                                                    
+2020-05-17                                 61      False
+2020-05-24                                 65      False
+2020-05-31                                 58      False
+2020-06-07                                 54      False
+2020-06-14                                 64      False
+2025-05-20 14:53:35 [WARNING][Machine Learning Ethics] 트렌드 데이터 수집 시도 2/3 실패: '"Machine Learning Ethics"'
+2025-05-20 14:53:35 [INFO][Generative Adversarial Networks] 수집된 데이터 샘플:
+            "Generative Adversarial Networks"  isPartial
+date                                                    
+2020-05-17                                 61      False
+2020-05-24                                 65      False
+2020-05-31                                 58      False
+2020-06-07                                 54      False
+2020-06-14                                 64      False
+2025-05-20 14:53:35 [INFO][Generative Adversarial Networks] 데이터 통계:
+- 전체 포인트: 262개
+- 전체 평균: 59.5
+- 최대값: 100
+- 최근 26주 평균: 60.8
+- 기간: 2020-05-17 ~ 2025-05-18
+2025-05-20 14:53:35 [SUCCESS][Generative Adversarial Networks] 트렌드 데이터 수집 완료
+2025-05-20 14:53:35 [INFO][Generative Adversarial Networks] 뉴스 데이터 수집 시작: Generative Adversarial Networks
+2025-05-20 14:53:36 [SUCCESS][Generative Adversarial Networks] 26개 뉴스 기사 수집 완료
+2025-05-20 14:53:36 [SUCCESS][Generative Adversarial Networks] 처리 완료
+2025-05-20 14:53:41 [INFO][Machine Learning Ethics] 트렌드 데이터 수집 시작 (검색어: "Machine Learning Ethics")
+2025-05-20 14:53:48 [INFO][Machine Learning Ethics] 수집된 데이터 샘플:
+            "Machine Learning Ethics"  isPartial
+date                                            
+2020-05-17                          0      False
+2020-05-24                          0      False
+2020-05-31                          0      False
+2020-06-07                          0      False
+2020-06-14                          0      False
+2025-05-20 14:53:48 [INFO][Machine Learning Ethics] 데이터 통계:
+- 전체 포인트: 262개
+- 전체 평균: 0.4
+- 최대값: 100
+- 최근 26주 평균: 0.2
+- 기간: 2020-05-17 ~ 2025-05-18
+2025-05-20 14:53:48 [SUCCESS][Machine Learning Ethics] 트렌드 데이터 수집 완료
+2025-05-20 14:53:48 [INFO][Machine Learning Ethics] 뉴스 데이터 수집 시작: Machine Learning Ethics
+2025-05-20 14:53:49 [SUCCESS][Machine Learning Ethics] 99개 뉴스 기사 수집 완료
+2025-05-20 14:53:49 [SUCCESS][Machine Learning Ethics] 처리 완료
+2025-05-20 14:53:49 [INFO][Natural Language Processing] 분석 시작
+2025-05-20 14:53:49 [INFO][Generative Adversarial Networks] 분석 시작
+2025-05-20 14:53:49 [INFO][Machine Learning Ethics] 분석 시작
+2025-05-20 14:53:49 [INFO] 데이터 분석 시작
+2025-05-20 14:53:49 [INFO] 데이터 분석 시작
+2025-05-20 14:53:49 [INFO] 논문 데이터 분석 중
+2025-05-20 14:53:49 [INFO] 데이터 분석 시작
+2025-05-20 14:53:49 [INFO] 논문 데이터 분석 중
+2025-05-20 14:53:49 [INFO] 트렌드 데이터 분석 중
+2025-05-20 14:53:49 [INFO] 논문 데이터 분석 중
+2025-05-20 14:53:49 [INFO] 트렌드 데이터 분석 중
+2025-05-20 14:53:49 [INFO] 트렌드 데이터 분석 중
+2025-05-20 14:53:49 [INFO] 뉴스 데이터 분석 중
+2025-05-20 14:53:49 [INFO] 뉴스 데이터 분석 중
+2025-05-20 14:53:49 [INFO] 뉴스 데이터 분석 중
+2025-05-20 14:53:49 [INFO][Natural Language Processing] 분석 데이터 준비 완료
+2025-05-20 14:53:49 [INFO][Machine Learning Ethics] 분석 데이터 준비 완료
+2025-05-20 14:53:49 [INFO][Generative Adversarial Networks] 분석 데이터 준비 완료
+2025-05-20 14:53:49 [INFO][Generative Adversarial Networks] 분석 프롬프트 생성 완료
+2025-05-20 14:53:49 [INFO][Natural Language Processing] 분석 프롬프트 생성 완료
+2025-05-20 14:53:49 [INFO][Machine Learning Ethics] 분석 프롬프트 생성 완료
+2025-05-20 14:53:51 [INFO][Generative Adversarial Networks] GPT 분석 완료
+2025-05-20 14:53:51 [SUCCESS][Generative Adversarial Networks] 응답 파싱 성공
+2025-05-20 14:53:51 [SUCCESS][Generative Adversarial Networks] 분석 완료
+2025-05-20 14:53:51 [SUCCESS] 데이터 분석 완료
+2025-05-20 14:53:51 [SUCCESS][Generative Adversarial Networks] 분석 완료
+2025-05-20 14:53:51 [INFO][Natural Language Processing] GPT 분석 완료
+2025-05-20 14:53:51 [SUCCESS][Natural Language Processing] 응답 파싱 성공
+2025-05-20 14:53:51 [SUCCESS][Natural Language Processing] 분석 완료
+2025-05-20 14:53:51 [SUCCESS] 데이터 분석 완료
+2025-05-20 14:53:51 [SUCCESS][Natural Language Processing] 분석 완료
+2025-05-20 14:53:52 [INFO][Machine Learning Ethics] GPT 분석 완료
+2025-05-20 14:53:52 [SUCCESS][Machine Learning Ethics] 응답 파싱 성공
+2025-05-20 14:53:52 [SUCCESS][Machine Learning Ethics] 분석 완료
+2025-05-20 14:53:52 [SUCCESS] 데이터 분석 완료
+2025-05-20 14:53:52 [SUCCESS][Machine Learning Ethics] 분석 완료
+2025-05-20 14:53:52 [INFO] 보고서 생성 시작
+2025-05-20 14:53:52 [SUCCESS][Generative Adversarial Networks] 분석 결과 처리 완료
+2025-05-20 14:53:52 [SUCCESS][Natural Language Processing] 분석 결과 처리 완료
+2025-05-20 14:53:52 [SUCCESS][Machine Learning Ethics] 분석 결과 처리 완료
+2025-05-20 14:53:52 [INFO] 성공한 분석 결과 수: 3
+2025-05-20 14:53:52 [INFO] 보고서 생성 시작
+2025-05-20 14:53:52 [INFO] 관련 기업 정보 생성 중 - Generative Adversarial Networks
+2025-05-20 14:54:11 [INFO] 관련 기업 정보 생성 중 - Natural Language Processing
+2025-05-20 14:54:32 [INFO] 관련 기업 정보 생성 중 - Machine Learning Ethics
+2025-05-20 14:55:03 [INFO] 보고서 요약 생성 중
+2025-05-20 14:55:08 [SUCCESS] 보고서 생성 완료
+2025-05-20 14:55:08 [INFO] 보고서 저장 시작
+2025-05-20 14:55:08 [SUCCESS] 보고서 저장 완료: ./outputs/trend_report_20250520_145508.md
+2025-05-20 14:55:08 [SUCCESS] 보고서 저장 성공: ./outputs/trend_report_20250520_145508.md
+2025-05-20 14:55:08 [SUCCESS] === 워크플로우 실행 완료 ===
+2025-05-20 14:55:08 [INFO] 총 소요 시간: 133.4초
+2025-05-20 14:55:08 [INFO] 성공: 3개 키워드
+2025-05-20 14:55:08 [INFO] 실패: 0개 키워드
+2025-05-20 14:55:08 [SUCCESS] 보고서 저장: ./outputs/trend_report_20250520_145508.md
+2025-05-20 14:55:08 [INFO] 보고서 저장 시작
+2025-05-20 14:55:09 [INFO] HTML 임시 파일 삭제: ./outputs/trend_report_20250520_145508.html
+2025-05-20 14:55:09 [INFO] 중간 마크다운 파일 삭제: ./outputs/trend_report_20250520_145508.md
+2025-05-20 14:55:09 [SUCCESS] PDF 보고서 저장 완료: ./outputs/trend_report_20250520_145508.pdf

@@ -1,0 +1,14 @@
+# 필수 패키지
+arxiv==2.2.0
+beautifulsoup4==4.13.4
+langchain==0.3.25
+langchain-openai==0.3.17
+langgraph==0.4.5
+Markdown==3.8
+numpy==1.26.4
+openai==1.79.0
+pandas==2.2.3
+python-dotenv==1.1.0
+pytrends==4.9.2
+requests==2.32.3
+weasyprint==65.1

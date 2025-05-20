@@ -1,0 +1,138 @@
+2025-05-20 15:00:32 [INFO] === 워크플로우 실행 시작 ===
+2025-05-20 15:00:32 [INFO] 분석할 대주제: 로봇
+2025-05-20 15:00:32 [INFO] 최대 동시 작업 수: 3
+2025-05-20 15:00:32 [INFO] 워크플로우 시작
+2025-05-20 15:00:32 [INFO] 키워드 추출 시작: 로봇
+2025-05-20 15:01:36 [SUCCESS] 키워드 추출 완료: Autonomous Mobile Robots, Robotic Process Automation, Humanoid Robots
+2025-05-20 15:01:36 [INFO][Autonomous Mobile Robots] 처리 시작
+2025-05-20 15:01:36 [INFO][Robotic Process Automation] 처리 시작
+2025-05-20 15:01:36 [INFO][Humanoid Robots] 처리 시작
+2025-05-20 15:01:36 [INFO][Autonomous Mobile Robots] 'Autonomous Mobile Robots' 관련 논문 검색 시작 (최대 200개)
+2025-05-20 15:01:36 [INFO][Robotic Process Automation] 'Robotic Process Automation' 관련 논문 검색 시작 (최대 200개)
+2025-05-20 15:01:36 [INFO][Humanoid Robots] 'Humanoid Robots' 관련 논문 검색 시작 (최대 200개)
+2025-05-20 15:01:38 [INFO][Humanoid Robots] 첫 번째 논문: GraspMolmo: Generalizable Task-Oriented Grasping via Large-Scale Synthetic Data Generation (cs.RO, 2025-05-19)
+2025-05-20 15:01:38 [INFO][Humanoid Robots] 배치 1 완료: 50개 수집 (최근 날짜: 2025-05-18)
+2025-05-20 15:01:38 [INFO][Humanoid Robots] 배치 2 완료: 100개 수집 (최근 날짜: 2025-05-16)
+2025-05-20 15:01:38 [INFO][Autonomous Mobile Robots] 첫 번째 논문: GraspMolmo: Generalizable Task-Oriented Grasping via Large-Scale Synthetic Data Generation (cs.RO, 2025-05-19)
+2025-05-20 15:01:38 [INFO][Autonomous Mobile Robots] 배치 1 완료: 50개 수집 (최근 날짜: 2025-05-19)
+2025-05-20 15:01:38 [INFO][Autonomous Mobile Robots] 배치 2 완료: 100개 수집 (최근 날짜: 2025-05-18)
+2025-05-20 15:01:38 [INFO][Robotic Process Automation] 첫 번째 논문: Trust, But Verify: A Self-Verification Approach to Reinforcement Learning with Verifiable Rewards (cs.AI, 2025-05-19)
+2025-05-20 15:01:38 [INFO][Robotic Process Automation] 배치 1 완료: 50개 수집 (최근 날짜: 2025-05-19)
+2025-05-20 15:01:38 [INFO][Robotic Process Automation] 배치 2 완료: 100개 수집 (최근 날짜: 2025-05-19)
+2025-05-20 15:01:42 [INFO][Autonomous Mobile Robots] 배치 3 완료: 150개 수집 (최근 날짜: 2025-05-16)
+2025-05-20 15:01:42 [INFO][Autonomous Mobile Robots] 배치 4 완료: 200개 수집 (최근 날짜: 2025-05-16)
+2025-05-20 15:01:42 [SUCCESS][Autonomous Mobile Robots] 수집 완료: 200개 논문, 기간: 2025-05-16 ~ 2025-05-19
+2025-05-20 15:01:42 [INFO][Autonomous Mobile Robots] 트렌드 데이터 수집 시작 (검색어: "Autonomous Mobile Robots")
+2025-05-20 15:01:42 [INFO][Humanoid Robots] 배치 3 완료: 150개 수집 (최근 날짜: 2025-05-15)
+2025-05-20 15:01:42 [INFO][Humanoid Robots] 배치 4 완료: 200개 수집 (최근 날짜: 2025-05-14)
+2025-05-20 15:01:42 [SUCCESS][Humanoid Robots] 수집 완료: 200개 논문, 기간: 2025-05-14 ~ 2025-05-19
+2025-05-20 15:01:42 [INFO][Humanoid Robots] 트렌드 데이터 수집 시작 (검색어: "Humanoid Robots")
+2025-05-20 15:01:43 [INFO][Robotic Process Automation] 배치 3 완료: 150개 수집 (최근 날짜: 2025-05-19)
+2025-05-20 15:01:43 [INFO][Robotic Process Automation] 배치 4 완료: 200개 수집 (최근 날짜: 2025-05-19)
+2025-05-20 15:01:43 [SUCCESS][Robotic Process Automation] 수집 완료: 200개 논문, 기간: 2025-05-19 ~ 2025-05-19
+2025-05-20 15:01:43 [INFO][Robotic Process Automation] 트렌드 데이터 수집 시작 (검색어: "Robotic Process Automation")
+2025-05-20 15:01:50 [WARNING][Autonomous Mobile Robots] 트렌드 데이터 수집 시도 1/3 실패: The request failed: Google returned a response with code 429
+2025-05-20 15:01:50 [WARNING][Robotic Process Automation] 트렌드 데이터 수집 시도 1/3 실패: The request failed: Google returned a response with code 429
+2025-05-20 15:01:50 [WARNING][Humanoid Robots] 트렌드 데이터 수집 시도 1/3 실패: The request failed: Google returned a response with code 429
+2025-05-20 15:01:53 [INFO][Autonomous Mobile Robots] 트렌드 데이터 수집 시작 (검색어: "Autonomous Mobile Robots")
+2025-05-20 15:01:53 [INFO][Robotic Process Automation] 트렌드 데이터 수집 시작 (검색어: "Robotic Process Automation")
+2025-05-20 15:01:53 [INFO][Humanoid Robots] 트렌드 데이터 수집 시작 (검색어: "Humanoid Robots")
+2025-05-20 15:02:00 [WARNING][Robotic Process Automation] 트렌드 데이터 수집 시도 2/3 실패: The request failed: Google returned a response with code 429
+2025-05-20 15:02:00 [INFO][Humanoid Robots] 수집된 데이터 샘플:
+            "Humanoid Robots"  isPartial
+date                                    
+2020-05-17                 12      False
+2020-05-24                  9      False
+2020-05-31                  6      False
+2020-06-07                  9      False
+2020-06-14                 10      False
+2025-05-20 15:02:00 [INFO][Autonomous Mobile Robots] 수집된 데이터 샘플:
+            "Humanoid Robots"  isPartial
+date                                    
+2020-05-17                 12      False
+2020-05-24                  9      False
+2020-05-31                  6      False
+2020-06-07                  9      False
+2020-06-14                 10      False
+2025-05-20 15:02:00 [INFO][Humanoid Robots] 데이터 통계:
+- 전체 포인트: 262개
+- 전체 평균: 23.9
+- 최대값: 100
+- 최근 26주 평균: 66.2
+- 기간: 2020-05-17 ~ 2025-05-18
+2025-05-20 15:02:00 [WARNING][Autonomous Mobile Robots] 트렌드 데이터 수집 시도 2/3 실패: '"Autonomous Mobile Robots"'
+2025-05-20 15:02:00 [SUCCESS][Humanoid Robots] 트렌드 데이터 수집 완료
+2025-05-20 15:02:00 [INFO][Humanoid Robots] 뉴스 데이터 수집 시작: Humanoid Robots
+2025-05-20 15:02:01 [SUCCESS][Humanoid Robots] 97개 뉴스 기사 수집 완료
+2025-05-20 15:02:01 [SUCCESS][Humanoid Robots] 처리 완료
+2025-05-20 15:02:06 [INFO][Robotic Process Automation] 트렌드 데이터 수집 시작 (검색어: "Robotic Process Automation")
+2025-05-20 15:02:06 [INFO][Autonomous Mobile Robots] 트렌드 데이터 수집 시작 (검색어: "Autonomous Mobile Robots")
+2025-05-20 15:02:13 [WARNING][Robotic Process Automation] 트렌드 데이터 수집 시도 3/3 실패: The request failed: Google returned a response with code 429
+2025-05-20 15:02:13 [ERROR][Robotic Process Automation] 트렌드 데이터 수집 실패: The request failed: Google returned a response with code 429
+2025-05-20 15:02:13 [INFO][Robotic Process Automation] 뉴스 데이터 수집 시작: Robotic Process Automation
+2025-05-20 15:02:14 [WARNING][Autonomous Mobile Robots] 트렌드 데이터 수집 시도 3/3 실패: The request failed: Google returned a response with code 429
+2025-05-20 15:02:14 [ERROR][Autonomous Mobile Robots] 트렌드 데이터 수집 실패: The request failed: Google returned a response with code 429
+2025-05-20 15:02:14 [INFO][Autonomous Mobile Robots] 뉴스 데이터 수집 시작: Autonomous Mobile Robots
+2025-05-20 15:02:14 [SUCCESS][Autonomous Mobile Robots] 51개 뉴스 기사 수집 완료
+2025-05-20 15:02:14 [SUCCESS][Autonomous Mobile Robots] 처리 완료
+2025-05-20 15:02:14 [SUCCESS][Robotic Process Automation] 100개 뉴스 기사 수집 완료
+2025-05-20 15:02:14 [SUCCESS][Robotic Process Automation] 처리 완료
+2025-05-20 15:02:14 [INFO][Humanoid Robots] 분석 시작
+2025-05-20 15:02:14 [INFO][Robotic Process Automation] 분석 시작
+2025-05-20 15:02:14 [INFO][Autonomous Mobile Robots] 분석 시작
+2025-05-20 15:02:14 [INFO] 데이터 분석 시작
+2025-05-20 15:02:14 [INFO] 데이터 분석 시작
+2025-05-20 15:02:14 [INFO] 데이터 분석 시작
+2025-05-20 15:02:14 [INFO] 논문 데이터 분석 중
+2025-05-20 15:02:14 [INFO] 논문 데이터 분석 중
+2025-05-20 15:02:14 [INFO] 논문 데이터 분석 중
+2025-05-20 15:02:14 [INFO] 트렌드 데이터 분석 중
+2025-05-20 15:02:14 [INFO] 트렌드 데이터 분석 중
+2025-05-20 15:02:14 [INFO] 트렌드 데이터 분석 중
+2025-05-20 15:02:14 [INFO] 뉴스 데이터 분석 중
+2025-05-20 15:02:14 [INFO][Autonomous Mobile Robots] 분석 데이터 준비 완료
+2025-05-20 15:02:14 [INFO] 뉴스 데이터 분석 중
+2025-05-20 15:02:14 [INFO] 뉴스 데이터 분석 중
+2025-05-20 15:02:14 [INFO][Robotic Process Automation] 분석 데이터 준비 완료
+2025-05-20 15:02:14 [INFO][Autonomous Mobile Robots] 분석 프롬프트 생성 완료
+2025-05-20 15:02:14 [INFO][Humanoid Robots] 분석 데이터 준비 완료
+2025-05-20 15:02:14 [INFO][Humanoid Robots] 분석 프롬프트 생성 완료
+2025-05-20 15:02:14 [INFO][Robotic Process Automation] 분석 프롬프트 생성 완료
+2025-05-20 15:02:17 [INFO][Autonomous Mobile Robots] GPT 분석 완료
+2025-05-20 15:02:17 [SUCCESS][Autonomous Mobile Robots] 응답 파싱 성공
+2025-05-20 15:02:17 [SUCCESS][Autonomous Mobile Robots] 분석 완료
+2025-05-20 15:02:17 [SUCCESS] 데이터 분석 완료
+2025-05-20 15:02:17 [SUCCESS][Autonomous Mobile Robots] 분석 완료
+2025-05-20 15:02:17 [INFO][Robotic Process Automation] GPT 분석 완료
+2025-05-20 15:02:17 [SUCCESS][Robotic Process Automation] 응답 파싱 성공
+2025-05-20 15:02:17 [SUCCESS][Robotic Process Automation] 분석 완료
+2025-05-20 15:02:17 [SUCCESS] 데이터 분석 완료
+2025-05-20 15:02:17 [SUCCESS][Robotic Process Automation] 분석 완료
+2025-05-20 15:02:20 [INFO][Humanoid Robots] GPT 분석 완료
+2025-05-20 15:02:20 [SUCCESS][Humanoid Robots] 응답 파싱 성공
+2025-05-20 15:02:20 [SUCCESS][Humanoid Robots] 분석 완료
+2025-05-20 15:02:20 [SUCCESS] 데이터 분석 완료
+2025-05-20 15:02:20 [SUCCESS][Humanoid Robots] 분석 완료
+2025-05-20 15:02:20 [INFO] 보고서 생성 시작
+2025-05-20 15:02:20 [SUCCESS][Autonomous Mobile Robots] 분석 결과 처리 완료
+2025-05-20 15:02:20 [SUCCESS][Robotic Process Automation] 분석 결과 처리 완료
+2025-05-20 15:02:20 [SUCCESS][Humanoid Robots] 분석 결과 처리 완료
+2025-05-20 15:02:20 [INFO] 성공한 분석 결과 수: 3
+2025-05-20 15:02:20 [INFO] 보고서 생성 시작
+2025-05-20 15:02:20 [INFO] 관련 기업 정보 생성 중 - Autonomous Mobile Robots
+2025-05-20 15:02:35 [INFO] 관련 기업 정보 생성 중 - Robotic Process Automation
+2025-05-20 15:02:54 [INFO] 관련 기업 정보 생성 중 - Humanoid Robots
+2025-05-20 15:03:18 [INFO] 보고서 요약 생성 중
+2025-05-20 15:03:23 [SUCCESS] 보고서 생성 완료
+2025-05-20 15:03:23 [INFO] 보고서 저장 시작
+2025-05-20 15:03:23 [SUCCESS] 보고서 저장 완료: ./outputs/trend_report_20250520_150323.md
+2025-05-20 15:03:23 [SUCCESS] 보고서 저장 성공: ./outputs/trend_report_20250520_150323.md
+2025-05-20 15:03:23 [SUCCESS] === 워크플로우 실행 완료 ===
+2025-05-20 15:03:23 [INFO] 총 소요 시간: 170.4초
+2025-05-20 15:03:23 [INFO] 성공: 3개 키워드
+2025-05-20 15:03:23 [INFO] 실패: 0개 키워드
+2025-05-20 15:03:23 [SUCCESS] 보고서 저장: ./outputs/trend_report_20250520_150323.md
+2025-05-20 15:03:23 [INFO] 보고서 저장 시작
+2025-05-20 15:03:23 [INFO] HTML 임시 파일 삭제: ./outputs/trend_report_20250520_150323.html
+2025-05-20 15:03:23 [INFO] 중간 마크다운 파일 삭제: ./outputs/trend_report_20250520_150323.md
+2025-05-20 15:03:23 [SUCCESS] PDF 보고서 저장 완료: ./outputs/trend_report_20250520_150323.pdf
